@@ -4,11 +4,11 @@ Bundle-Name: %pluginName
 Bundle-SymbolicName: org.eclipse.dsl.req.mindmap.editor;singleton:=true
 Bundle-Version: 1.0.0.qualifier
 Bundle-ClassPath: .
-Bundle-Activator: mindmap.presentation.RequirementsEditorPlugin$Implementation
+Bundle-Activator: requirements.presentation.RequirementsEditorPlugin$Implementation
 Bundle-Vendor: %providerName
 Bundle-Localization: plugin
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
-Export-Package: mindmap.presentation
+Export-Package: requirements.presentation
 Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.core.resources;visibility:=reexport,
  org.eclipse.dsl.req.mindmap.edit;visibility:=reexport,

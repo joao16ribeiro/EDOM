@@ -9,8 +9,8 @@
    <extension point="org.eclipse.emf.edit.itemProviderAdapterFactories">
       <!-- @generated Requirements -->
       <factory
-            uri="http://org/eclipse/dsl/req/mindmap"
-            class="mindmap.provider.MindmapItemProviderAdapterFactory"
+            uri="http://org/eclipse/dsl/requirements"
+            class="requirements.provider.RequirementsItemProviderAdapterFactory"
             supportedTypes=
               "org.eclipse.emf.edit.provider.IEditingDomainItemProvider
                org.eclipse.emf.edit.provider.IStructuredItemContentProvider

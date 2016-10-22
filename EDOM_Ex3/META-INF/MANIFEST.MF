@@ -9,7 +9,10 @@ Bundle-Localization: plugin
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Export-Package: mindmap,
  mindmap.impl,
- mindmap.util
+ mindmap.util,
+ requirements,
+ requirements.impl,
+ requirements.util
 Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.emf.ecore;visibility:=reexport
 Bundle-ActivationPolicy: lazy

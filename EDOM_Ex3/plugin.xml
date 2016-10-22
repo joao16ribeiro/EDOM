@@ -9,8 +9,8 @@
    <extension point="org.eclipse.emf.ecore.generated_package">
       <!-- @generated Requirements -->
       <package
-            uri="http://org/eclipse/dsl/req/mindmap"
-            class="mindmap.MindmapPackage"
+            uri="http://org/eclipse/dsl/requirements"
+            class="requirements.RequirementsPackage"
             genModel="Requirements.genmodel"/>
    </extension>
 

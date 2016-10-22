@@ -12,12 +12,12 @@
             id="org.eclipse.emf.ecore.Wizard.category.ID"
             name="%_UI_Wizard_category"/>
       <wizard
-            id="mindmap.presentation.MindmapModelWizardID"
-            name="%_UI_MindmapModelWizard_label"
-            class="mindmap.presentation.MindmapModelWizard"
+            id="requirements.presentation.RequirementsModelWizardID"
+            name="%_UI_RequirementsModelWizard_label"
+            class="requirements.presentation.RequirementsModelWizard"
             category="org.eclipse.emf.ecore.Wizard.category.ID"
-            icon="icons/full/obj16/MindmapModelFile.gif">
-         <description>%_UI_MindmapModelWizard_description</description>
+            icon="icons/full/obj16/RequirementsModelFile.gif">
+         <description>%_UI_RequirementsModelWizard_description</description>
          <selection class="org.eclipse.core.resources.IResource"/>
       </wizard>
    </extension>
@@ -25,12 +25,12 @@
    <extension point="org.eclipse.ui.editors">
       <!-- @generated Requirements -->
       <editor
-            id="mindmap.presentation.MindmapEditorID"
-            name="%_UI_MindmapEditor_label"
-            icon="icons/full/obj16/MindmapModelFile.gif"
-            extensions="mindmap"
-            class="mindmap.presentation.MindmapEditor"
-            contributorClass="mindmap.presentation.MindmapActionBarContributor">
+            id="requirements.presentation.RequirementsEditorID"
+            name="%_UI_RequirementsEditor_label"
+            icon="icons/full/obj16/RequirementsModelFile.gif"
+            extensions="requirements"
+            class="requirements.presentation.RequirementsEditor"
+            contributorClass="requirements.presentation.RequirementsActionBarContributor">
       </editor>
    </extension>
 

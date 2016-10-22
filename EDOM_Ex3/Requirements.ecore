@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="mindmap" nsURI="http://org/eclipse/dsl/req/mindmap" nsPrefix="org.eclipse.dsl.req.mindmap">
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="requirements" nsURI="http://org/eclipse/dsl/requirements" nsPrefix="org.eclipse.dsl.requirements">
   <eClassifiers xsi:type="ecore:EClass" name="Model">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="title" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
         defaultValueLiteral=""/>
