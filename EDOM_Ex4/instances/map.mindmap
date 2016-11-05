@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.dsl.mindmap:Map xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.dsl.mindmap="http://org/eclipse/dsl/mindmap">
+  <elements xsi:type="org.eclipse.dsl.mindmap:Topic" name="A" subtopics="//@elements.1 //@elements.2"/>
+  <elements xsi:type="org.eclipse.dsl.mindmap:Topic" name="A1" parent="//@elements.0"/>
+  <elements xsi:type="org.eclipse.dsl.mindmap:Topic" name="A2" parent="//@elements.0"/>
+  <elements xsi:type="org.eclipse.dsl.mindmap:Topic" name="B"/>
+  <elements xsi:type="org.eclipse.dsl.mindmap:Relationship" source="//@elements.0" target="//@elements.3"/>
+</org.eclipse.dsl.mindmap:Map>
